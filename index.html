@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram UI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/840px-Instagram_logo.svg.png" class="brand-img" alt="" width="200px">
+            <input type="text" class="search-box" placeholder="search">
+            <div class="nav-items">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/157/862/original/house-and-home-icon-symbol-sign-free-png.png" class="icon" alt="">
+                <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/6537/6537820.png" class="icon" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8xx9lLgFsrCr14JdFwG7GCJmjcSF4FkTSpQ&usqp=CAU" class="icon" alt="">
+                <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="">
+                <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://www.elheraldo.hn/binrepository/900x900/0c0/0d0/none/45933/EMHJ/10_3660574_20230207181909.jpg" alt=""></div>
+                        <p class="username">Jimy_Gadiel</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJbMBtleQ0FxP8CHkmDkp2Gqi3XBe-w2YYgQ&usqp=CAU" alt=""></div>
+                        <p class="username">Josue_Hc</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://img.wattpad.com/0805004faeb31d76afc0ef28f976f62f22fef08d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f706c575554366e6f4546565851513d3d2d31382e313561653966653763633834313432373132333233323231323936312e6a7067?s=fit&w=720&h=720" alt=""></div>
+                        <p class="username">Jose_Beni</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi68qVplDKc2BSxkWUjBKVxrE29gqWYQASeQ&usqp=CAU" alt=""></div>
+                        <p class="username">Ediel_solis</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://www.semana.com/resizer/66IcknKlGTQ5k8NWPLW79cvKg28=/fit-in/1280x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/KVRYJNDM6FGKPGL6WXPO26HFUA.png" alt=""></div>
+                        <p class="username">javier_N</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mCj9r_9oQi7wZs7o8kQVk9QM2KH7f6EWl8OfI-UM7RgsXAE5vtGofaJVQ0UphxjlWtM&usqp=CAU" alt=""></div>
+                        <p class="username">Bruno_Sardaneta</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzfzw7k_9avF-de8Coo-3RS9R5BZcAuDQ1Q&usqp=CAU" alt=""></div>
+                        <p class="username">Omar_CC</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://e7.pngegg.com/pngimages/687/7/png-clipart-five-nights-at-freddy-s-2-freddy-fazbear-s-pizzeria-simulator-five-nights-at-freddy-s-3-stuffed-animals-cuddly-toys-plush-thumbnail.png" alt=""></div>
+                        <p class="username">Cris_May</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="https://media.tycsports.com/files/2022/06/14/440399/las-20-mejores-fotos-de-perfil-para-tu-cuenta-de-free-fire_w416.webp" alt=""></div>
+                        <p class="username">Alex_Batun</p>
+                    </div><div class="status-card">
+                        <div class="profile-pic"><img src="data:image/jpeg;base64,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" alt=""></div>
+                        <p class="username">David_M</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="data:image/jpeg;base64,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" alt=""></div>
+                        <p class="username">Zeus_poot</p>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://img.wattpad.com/0805004faeb31d76afc0ef28f976f62f22fef08d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f706c575554366e6f4546565851513d3d2d31382e313561653966653763633834313432373132333233323231323936312e6a7067?s=fit&w=720&h=720" alt=""></div>
+                            <p class="username">Jose_Beni</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViC4SLO7Vv8Na4_EcOYfCjDh2hF33h9XHEw&usqp=CAU" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">3,100 likes</p>
+                        <p class="description"><span>username:</span>Josebeni198</p>
+                        <p class="post-time">30 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi68qVplDKc2BSxkWUjBKVxrE29gqWYQASeQ&usqp=CAU" alt=""></div>
+                            <p class="username">Ediel_solis</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/KFEUST6ZHVGMRIA4L3VUFWUXFM.jpg" class="post-image" alt="" width="400px">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">1,012 likes</p>
+                        <p class="description"><span>username</span>Ediso34</p>
+                        <p class="post-time">2 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://www.elheraldo.hn/binrepository/900x900/0c0/0d0/none/45933/EMHJ/10_3660574_20230207181909.jpg" alt=""></div>
+                            <p class="username">Jimy_Gadiel</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://img.wattpad.com/d650f9ffa138e344817e57824fc6edbbbcfb0191/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7053777134485f43674a69676f413d3d2d313134383335343331312e3136623264643330346138316464633135363131353931373538312e6a7067?s=fit&w=720&h=720" class="post-image" alt="" width="200px">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">7,750 likes</p>
+                        <p class="description"><span>username</span>Gadiel206g</p>
+                        <p class="post-time">10 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzfzw7k_9avF-de8Coo-3RS9R5BZcAuDQ1Q&usqp=CAU" alt=""></div>
+                            <p class="username">Omar_CC</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyVK0X6CEXPROP-hw47RPjbEtSavXAz1ZaA&usqp=CAU" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">1,165 likes</p>
+                        <p class="description"><span>username</span>Omar89</p>
+                        <p class="post-time">40 seconds ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://www.elheraldo.hn/binrepository/900x900/0c0/0d0/none/45933/EMHJ/10_3660574_20230207181909.jpg" alt=""></div>
+                            <p class="username">Jimy_Gadiel</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://noticias.animeonegai.com/wp-content/uploads/2022/09/Go-Toubun-no-Hanayome-Las-quintillizas-se-visten-como-policias-en-una-colaboracion-especial-3-min_waifu2x_art_noise2_scale_tta_1-1-1.jpg" class="post-image" alt="" width="300px">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">8,028 likes</p>
+                        <p class="description"><span>username</span>Gadiel206g</p>
+                        <p class="post-time">12 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJbMBtleQ0FxP8CHkmDkp2Gqi3XBe-w2YYgQ&usqp=CAU" alt=""></div>
+                            <p class="username">Josue_Hc</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2021/08/25/61262f9363fbf.jpeg" class="post-image" alt="" width="300px">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">1,056 likes</p>
+                        <p class="description"><span>username</span></p>
+                        <p class="post-time">2 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://www.semana.com/resizer/66IcknKlGTQ5k8NWPLW79cvKg28=/fit-in/1280x0/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/KVRYJNDM6FGKPGL6WXPO26HFUA.png" alt=""></div>
+                            <p class="username">javier_N</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="" width="300px">
+                    </div>
+                    <br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9kQtHdg1yP0sigv4N1Y57NhSCeeWOEKfEXw&usqp=CAU" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">1,012 likes</p>
+                        <p class="description"><span>username</span> javiP</p>
+                        <p class="post-time">2 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mCj9r_9oQi7wZs7o8kQVk9QM2KH7f6EWl8OfI-UM7RgsXAE5vtGofaJVQ0UphxjlWtM&usqp=CAU" alt=""></div>
+                            <p class="username">Bruno_Sardaneta</p>
+                        </div>
+                        <img src="img/option.PNG" class="options" alt="">
+                    </div>
+                    <br><img src="https://p.calameoassets.com/210801004552-1d42899abc86aad56b530e9a94e2a268/p1.jpg" class="post-image" alt="" width="300px">
+                    <div class="post-content">
+                        <div class="raction-wrapper">
+                            <img src="https://cdn.icon-icons.com/icons2/1744/PNG/512/3643770-favorite-heart-like-likes-love-loved_113432.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn-icons-png.flaticon.com/512/7124/7124429.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/send_120237.png" class="icon" alt="" width="20px">
+                            <img src="https://cdn.icon-icons.com/icons2/3138/PNG/512/bookmark_save_storage_basic_icon_192482.png" class="save icon" alt="" width="20px">
+                        </div>
+                        <p class="likes">1,012 likes</p>
+                        <p class="description"><span>username</span>Bruni67</p>
+                        <p class="post-time">4 minutes ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1441/1441204.png" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-col">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="https://i.pinimg.com/736x/c7/2f/0c/c72f0c9d484fd3377d5361b3147ce9e7.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Silencio_24_HC</p>
+                        <p class="sub-text">kunaal kumar</p><br>
+                        <p class="suggestion">Suggestions for you</p>
+                    </div>
+                    <button class="action-btn">switch</button>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR4x73K47ciJkyYmyq-_Sor2_6Jymw-y48fg&usqp=CAU" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Aquiles_Castro2</p>
+                        <p class="sub-text">followed bu user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                        <img src="https://i.pinimg.com/474x/9e/33/e1/9e33e1000c3d76bed0a9827a85c8bb16.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="username">Panucho2_general</p>
+                            <p class="sub-text">followed bu user</p>
+                        </div>
+                    <button class="action-btn">follow</button>
+                    </div>
+
+                        <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcpw4QHPBfelfg8PfornarIqpEFy5mh9sZi6V_FV9rgRU88r64yfePnQ6CPqC_z6SqYM&usqp=CAU" alt="">
+                        </div>
+                        <div>
+                            <p class="username">Susana_Oria</p>
+                            <p class="sub-text">followed bu user</p>
+                        </div>
+                        <button class="action-btn">follow</button>
+                        </div>
+
+                        <div class="profile-card">
+                            <div class="profile-pic">
+                                <img src="https://i.pinimg.com/originals/6e/88/de/6e88deba59e66ab413668161227273d2.jpg" alt="">
+                            </div>
+                            <div>
+                                <p class="username">Elza_Polindo</p>
+                                <p class="sub-text">followed bu user</p>
+                            </div>
+                            <button class="action-btn">follow</button>
+                        </div>
+
+                            <div class="profile-card">
+                                <div class="profile-pic">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_abhRV9HIZOvebOUAgxHhBQvMeTapiXSuw&usqp=CAU" alt="">
+                                </div>
+                                <div>
+                                    <p class="username">Mary_Conazo34</p>
+                                    <p class="sub-text">followed bu user</p>
+                                </div>
+                                <button class="action-btn">follow</button>
+                            </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
